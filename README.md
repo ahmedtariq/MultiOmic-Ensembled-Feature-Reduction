@@ -21,7 +21,7 @@ Download and install the following from conda
 ## Demo
 in this demo we select top 20 significant features for each omic data seprately using our EMFR method (ML_Selector) and concatinating significant features from each Omic together to get most significant MultiOmic features.  
 
-```{python}
+```python
 from ML_selector_utils import ML_Selector
 
 type_DF_train = []
